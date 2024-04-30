@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_application_2/style.dart';
 import 'package:flutter_application_2/quiz.dart';
 
 void main() {
@@ -12,6 +11,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MyQuiz();
+    return const MyQuiz();
   }
 }

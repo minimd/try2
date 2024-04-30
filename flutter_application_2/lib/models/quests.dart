@@ -1,18 +1,13 @@
 import 'package:flutter_application_2/models/data.dart';
 
-const questions = [
+const questions_list = [
   QuizQuestion(
     'what are the main building blocks of flutter UIs?',
-    ["  widgets", 'components, ' 'blocks', "functions"],
+    ["  widgets", 'components ', 'blocks', "functions", ],
   ),
   QuizQuestion(
     "What is the capital of France?",
-    [
-      'Paris',
-      'Madrid,'
-          'Rome',
-      'Berlin,'
-    ],
+    ['Paris', 'Madrid', 'Rome', 'Berlin,'],
   ),
   QuizQuestion(
     'Which planet is known as the Red Planet?',
