@@ -27,7 +27,8 @@ class _MyQuizState extends State<MyQuiz> {
 
   void chooseAnswer(String answer) {
     selectedAnswers.add(answer);
-  }
+    
+   }
 
   @override
   Widget build(context) {
