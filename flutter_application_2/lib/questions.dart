@@ -43,7 +43,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
                   fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 30),
-            ...currentQuestion.getShuffledAnswers().map((answer) {
+            ...currentQuestion.getShiffledAnswers().map((answer) {
               return AnswerButton(answer, () {
                 answerQuestion(answer);
               });
