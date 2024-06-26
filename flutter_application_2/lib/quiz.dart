@@ -27,12 +27,14 @@ class _MyQuizState extends State<MyQuiz> {
 
   void chooseAnswer(String answer) {
     selectedAnswers.add(answer);
+
     if (selectedAnswers.length == questions_list.length) {
       setState(() {
         activeScreen = "results-screen";
       });
     }
   }
+
 
   @override
   Widget build(context) {
